@@ -1,0 +1,155 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.1" xml:lang="en-US">
+  <compounddef id="class_base_rotation" kind="class" language="C#" prot="public">
+    <compoundname>BaseRotation</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">MonoBehaviour</basecompoundref>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="class_base_rotation_1a58b0d06d816edef94c6dc542c35d3090" prot="public" static="no" mutable="no">
+        <type>Rigidbody</type>
+        <definition>Rigidbody BaseRotation.rb</definition>
+        <argsstring></argsstring>
+        <name>rb</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Assets/GameJamInnerSpace/Scripts/BaseRotation.cs" line="7" column="22" bodyfile="Assets/GameJamInnerSpace/Scripts/BaseRotation.cs" bodystart="7" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_base_rotation_1ae1364f88fb8b8f3d52c1232844b0d8e8" prot="public" static="no" mutable="no">
+        <type>int</type>
+        <definition>int BaseRotation.spinSpeed</definition>
+        <argsstring></argsstring>
+        <name>spinSpeed</name>
+        <initializer>= 1000</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Assets/GameJamInnerSpace/Scripts/BaseRotation.cs" line="12" column="16" bodyfile="Assets/GameJamInnerSpace/Scripts/BaseRotation.cs" bodystart="12" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_base_rotation_1aa86593dcd2b46db2b8c984b5f27c2b95" prot="public" static="no" mutable="no">
+        <type>GameObject</type>
+        <definition>GameObject BaseRotation.homeBase</definition>
+        <argsstring></argsstring>
+        <name>homeBase</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Assets/GameJamInnerSpace/Scripts/BaseRotation.cs" line="14" column="23" bodyfile="Assets/GameJamInnerSpace/Scripts/BaseRotation.cs" bodystart="14" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="class_base_rotation_1ad568f323016b6f3831c9bcc4d79d40d4" prot="private" static="no" mutable="no">
+        <type>Vector3</type>
+        <definition>Vector3 BaseRotation.torque</definition>
+        <argsstring></argsstring>
+        <name>torque</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Assets/GameJamInnerSpace/Scripts/BaseRotation.cs" line="9" column="22" bodyfile="Assets/GameJamInnerSpace/Scripts/BaseRotation.cs" bodystart="9" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_base_rotation_1ac63eb67ecd69ea35e8a6719ae1db4cff" prot="private" static="no" mutable="no">
+        <type>Vector3</type>
+        <definition>Vector3 BaseRotation.thisObj</definition>
+        <argsstring></argsstring>
+        <name>thisObj</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Assets/GameJamInnerSpace/Scripts/BaseRotation.cs" line="10" column="22" bodyfile="Assets/GameJamInnerSpace/Scripts/BaseRotation.cs" bodystart="10" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-func">
+      <memberdef kind="function" id="class_base_rotation_1a0e6e8070799726464ccdcf95de87b8b5" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void BaseRotation.Start</definition>
+        <argsstring>()</argsstring>
+        <name>Start</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Assets/GameJamInnerSpace/Scripts/BaseRotation.cs" line="16" column="10" bodyfile="Assets/GameJamInnerSpace/Scripts/BaseRotation.cs" bodystart="16" bodyend="24"/>
+      </memberdef>
+      <memberdef kind="function" id="class_base_rotation_1a577fa6b52151a2509db266ff70f027e7" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void BaseRotation.Update</definition>
+        <argsstring>()</argsstring>
+        <name>Update</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Assets/GameJamInnerSpace/Scripts/BaseRotation.cs" line="27" column="10" bodyfile="Assets/GameJamInnerSpace/Scripts/BaseRotation.cs" bodystart="27" bodyend="30"/>
+      </memberdef>
+      <memberdef kind="function" id="class_base_rotation_1a21f2f6fd39c347085fffe7c6d82d2ccb" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void BaseRotation.Spin</definition>
+        <argsstring>()</argsstring>
+        <name>Spin</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Assets/GameJamInnerSpace/Scripts/BaseRotation.cs" line="32" column="10" bodyfile="Assets/GameJamInnerSpace/Scripts/BaseRotation.cs" bodystart="32" bodyend="37"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="1">
+        <label>BaseRotation</label>
+        <link refid="class_base_rotation"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>MonoBehaviour</label>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="1">
+        <label>BaseRotation</label>
+        <link refid="class_base_rotation"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>MonoBehaviour</label>
+      </node>
+    </collaborationgraph>
+    <location file="Assets/GameJamInnerSpace/Scripts/BaseRotation.cs" line="5" column="7" bodyfile="Assets/GameJamInnerSpace/Scripts/BaseRotation.cs" bodystart="6" bodyend="38"/>
+    <listofallmembers>
+      <member refid="class_base_rotation_1aa86593dcd2b46db2b8c984b5f27c2b95" prot="public" virt="non-virtual"><scope>BaseRotation</scope><name>homeBase</name></member>
+      <member refid="class_base_rotation_1a58b0d06d816edef94c6dc542c35d3090" prot="public" virt="non-virtual"><scope>BaseRotation</scope><name>rb</name></member>
+      <member refid="class_base_rotation_1a21f2f6fd39c347085fffe7c6d82d2ccb" prot="private" virt="non-virtual"><scope>BaseRotation</scope><name>Spin</name></member>
+      <member refid="class_base_rotation_1ae1364f88fb8b8f3d52c1232844b0d8e8" prot="public" virt="non-virtual"><scope>BaseRotation</scope><name>spinSpeed</name></member>
+      <member refid="class_base_rotation_1a0e6e8070799726464ccdcf95de87b8b5" prot="private" virt="non-virtual"><scope>BaseRotation</scope><name>Start</name></member>
+      <member refid="class_base_rotation_1ac63eb67ecd69ea35e8a6719ae1db4cff" prot="private" virt="non-virtual"><scope>BaseRotation</scope><name>thisObj</name></member>
+      <member refid="class_base_rotation_1ad568f323016b6f3831c9bcc4d79d40d4" prot="private" virt="non-virtual"><scope>BaseRotation</scope><name>torque</name></member>
+      <member refid="class_base_rotation_1a577fa6b52151a2509db266ff70f027e7" prot="private" virt="non-virtual"><scope>BaseRotation</scope><name>Update</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

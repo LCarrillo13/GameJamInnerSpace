@@ -1,0 +1,67 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygenindex xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="index.xsd" version="1.9.1" xml:lang="en-US">
+  <compound refid="class_base_rotation" kind="class"><name>BaseRotation</name>
+    <member refid="class_base_rotation_1a58b0d06d816edef94c6dc542c35d3090" kind="variable"><name>rb</name></member>
+    <member refid="class_base_rotation_1ae1364f88fb8b8f3d52c1232844b0d8e8" kind="variable"><name>spinSpeed</name></member>
+    <member refid="class_base_rotation_1aa86593dcd2b46db2b8c984b5f27c2b95" kind="variable"><name>homeBase</name></member>
+    <member refid="class_base_rotation_1ad568f323016b6f3831c9bcc4d79d40d4" kind="variable"><name>torque</name></member>
+    <member refid="class_base_rotation_1ac63eb67ecd69ea35e8a6719ae1db4cff" kind="variable"><name>thisObj</name></member>
+    <member refid="class_base_rotation_1a0e6e8070799726464ccdcf95de87b8b5" kind="function"><name>Start</name></member>
+    <member refid="class_base_rotation_1a577fa6b52151a2509db266ff70f027e7" kind="function"><name>Update</name></member>
+    <member refid="class_base_rotation_1a21f2f6fd39c347085fffe7c6d82d2ccb" kind="function"><name>Spin</name></member>
+  </compound>
+  <compound refid="class_menu" kind="class"><name>Menu</name>
+    <member refid="class_menu_1a81909b0410c2b5103e0b5857b068ee49" kind="variable"><name>cam</name></member>
+    <member refid="class_menu_1a5c2728f21c9c789c546705bf7dc6f1c5" kind="variable"><name>isAAEnable</name></member>
+    <member refid="class_menu_1a03cc1878d4f17fe540ded9fab03351d2" kind="function"><name>Start</name></member>
+    <member refid="class_menu_1aac2a5021a95fdee470c0d63bc70d0e1a" kind="function"><name>Update</name></member>
+    <member refid="class_menu_1a7202aa1853c5780f5db49ba50e49ba25" kind="function"><name>LoadScene</name></member>
+    <member refid="class_menu_1a81e139934a1fab91d62aa697d0ce7ac8" kind="function"><name>Close</name></member>
+    <member refid="class_menu_1aeb89d5d37ba21c6eb8c85fac6269358c" kind="function"><name>antiAliasCheck</name></member>
+  </compound>
+  <compound refid="class_player" kind="class"><name>Player</name>
+    <member refid="class_player_1aad5b7e3cb2c7c2760659e91fe273b0fe" kind="variable"><name>player</name></member>
+    <member refid="class_player_1a5aa0ae59aa482f5bdd0d87fe086f739d" kind="variable"><name>rb</name></member>
+    <member refid="class_player_1a03c8b50802d308f8bcb12af2ca06199a" kind="variable"><name>playerSpeed</name></member>
+    <member refid="class_player_1a112ba05d4e6ceeaec01d350f7955d35b" kind="variable"><name>rotationalSpeed</name></member>
+    <member refid="class_player_1ae3604d2cc9dbcadfabeaf46749a69a29" kind="variable"><name>particleSystem</name></member>
+    <member refid="class_player_1a004efda52f12271e548fa88fe0b7f8c0" kind="variable"><name>startPos</name></member>
+    <member refid="class_player_1a47e723ac7e88de083a9cc2f071e2bbc8" kind="variable"><name>pausePanel</name></member>
+    <member refid="class_player_1aa403ee93a44da77f0142d82281f6f818" kind="variable"><name>isPaused</name></member>
+    <member refid="class_player_1a50239cc9522a497c176a845b810c2b9d" kind="variable"><name>playerMaxSpeed</name></member>
+    <member refid="class_player_1a6debbefda5a7c374dd14331bc8ee5e29" kind="variable"><name>playerMinSpeed</name></member>
+    <member refid="class_player_1a08a6d6c2e360450a781a162ebe5f448f" kind="variable"><name>maxRotationalSpeed</name></member>
+    <member refid="class_player_1a83ac571198e2c8bd7e87290d3217b386" kind="variable"><name>minRotationalSpeed</name></member>
+    <member refid="class_player_1a1a09a3ded16ac1646f6bdd4f25fe0ddd" kind="function"><name>Start</name></member>
+    <member refid="class_player_1aace80372e18e32fe177e295fe5d93ba8" kind="function"><name>Update</name></member>
+    <member refid="class_player_1aaa08a71c33eb3d12ec47507697ae8bff" kind="function"><name>GetInput</name></member>
+    <member refid="class_player_1aaae975531f407dd76057076f5e448895" kind="function"><name>Pause</name></member>
+    <member refid="class_player_1a845a19a1bd9e4e63b5a0c18842307b0e" kind="function"><name>Die</name></member>
+    <member refid="class_player_1a7492feeffc37dc255e41ae428d7a9d39" kind="function"><name>Win</name></member>
+    <member refid="class_player_1a395c273f4e2fdd87fc8beef4ae797b56" kind="function"><name>OnTriggerEnter</name></member>
+  </compound>
+  <compound refid="namespace_system" kind="namespace"><name>System</name>
+  </compound>
+  <compound refid="namespace_system_1_1_collections" kind="namespace"><name>System::Collections</name>
+  </compound>
+  <compound refid="namespace_system_1_1_collections_1_1_generic" kind="namespace"><name>System::Collections::Generic</name>
+  </compound>
+  <compound refid="namespace_unity_engine" kind="namespace"><name>UnityEngine</name>
+  </compound>
+  <compound refid="namespace_unity_engine_1_1_scene_management" kind="namespace"><name>UnityEngine::SceneManagement</name>
+  </compound>
+  <compound refid="namespace_unity_engine_1_1_u_i" kind="namespace"><name>UnityEngine::UI</name>
+  </compound>
+  <compound refid="_base_rotation_8cs" kind="file"><name>BaseRotation.cs</name>
+  </compound>
+  <compound refid="_menu_8cs" kind="file"><name>Menu.cs</name>
+  </compound>
+  <compound refid="_player_8cs" kind="file"><name>Player.cs</name>
+  </compound>
+  <compound refid="dir_84bbf7b3c7f28a5a18725745e1505219" kind="dir"><name>Assets</name>
+  </compound>
+  <compound refid="dir_4e02e35d496dc08f47fe876464b9b8ab" kind="dir"><name>Assets/GameJamInnerSpace</name>
+  </compound>
+  <compound refid="dir_879913be58627781aea65d674be1af50" kind="dir"><name>Assets/GameJamInnerSpace/Scripts</name>
+  </compound>
+</doxygenindex>

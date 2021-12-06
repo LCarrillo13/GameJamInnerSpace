@@ -1,0 +1,171 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.1" xml:lang="en-US">
+  <compounddef id="class_menu" kind="class" language="C#" prot="public">
+    <compoundname>Menu</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">MonoBehaviour</basecompoundref>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="class_menu_1a81909b0410c2b5103e0b5857b068ee49" prot="public" static="no" mutable="no">
+        <type>Camera</type>
+        <definition>Camera Menu.cam</definition>
+        <argsstring></argsstring>
+        <name>cam</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Assets/GameJamInnerSpace/Scripts/Menu.cs" line="10" column="15" bodyfile="Assets/GameJamInnerSpace/Scripts/Menu.cs" bodystart="10" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_menu_1a5c2728f21c9c789c546705bf7dc6f1c5" prot="public" static="no" mutable="no">
+        <type>bool</type>
+        <definition>bool Menu.isAAEnable</definition>
+        <argsstring></argsstring>
+        <name>isAAEnable</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Assets/GameJamInnerSpace/Scripts/Menu.cs" line="11" column="13" bodyfile="Assets/GameJamInnerSpace/Scripts/Menu.cs" bodystart="11" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-func">
+      <memberdef kind="function" id="class_menu_1a03cc1878d4f17fe540ded9fab03351d2" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void Menu.Start</definition>
+        <argsstring>()</argsstring>
+        <name>Start</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Assets/GameJamInnerSpace/Scripts/Menu.cs" line="14" column="10" bodyfile="Assets/GameJamInnerSpace/Scripts/Menu.cs" bodystart="14" bodyend="17"/>
+      </memberdef>
+      <memberdef kind="function" id="class_menu_1aac2a5021a95fdee470c0d63bc70d0e1a" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void Menu.Update</definition>
+        <argsstring>()</argsstring>
+        <name>Update</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Assets/GameJamInnerSpace/Scripts/Menu.cs" line="20" column="10" bodyfile="Assets/GameJamInnerSpace/Scripts/Menu.cs" bodystart="20" bodyend="32"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_menu_1a7202aa1853c5780f5db49ba50e49ba25" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void Menu.LoadScene</definition>
+        <argsstring>(string SceneName)</argsstring>
+        <name>LoadScene</name>
+        <param>
+          <type>string</type>
+          <declname>SceneName</declname>
+        </param>
+        <briefdescription>
+<para>Loads the Scene </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>SceneName</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Name of scene being changed to</para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Assets/GameJamInnerSpace/Scripts/Menu.cs" line="40" column="17" bodyfile="Assets/GameJamInnerSpace/Scripts/Menu.cs" bodystart="40" bodyend="44"/>
+      </memberdef>
+      <memberdef kind="function" id="class_menu_1a81e139934a1fab91d62aa697d0ce7ac8" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void Menu.Close</definition>
+        <argsstring>()</argsstring>
+        <name>Close</name>
+        <briefdescription>
+<para>Exits the game. If in editor, stops play mode. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Assets/GameJamInnerSpace/Scripts/Menu.cs" line="49" column="17" bodyfile="Assets/GameJamInnerSpace/Scripts/Menu.cs" bodystart="49" bodyend="55"/>
+      </memberdef>
+      <memberdef kind="function" id="class_menu_1aeb89d5d37ba21c6eb8c85fac6269358c" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void Menu.antiAliasCheck</definition>
+        <argsstring>(bool enabledAA)</argsstring>
+        <name>antiAliasCheck</name>
+        <param>
+          <type>bool</type>
+          <declname>enabledAA</declname>
+        </param>
+        <briefdescription>
+<para>Changes AntiAlias Quality settings. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>enabledAA</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>If Anti-Aliasing is enabled</para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Assets/GameJamInnerSpace/Scripts/Menu.cs" line="63" column="17" bodyfile="Assets/GameJamInnerSpace/Scripts/Menu.cs" bodystart="63" bodyend="66"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="1">
+        <label>Menu</label>
+        <link refid="class_menu"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>MonoBehaviour</label>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="1">
+        <label>Menu</label>
+        <link refid="class_menu"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>MonoBehaviour</label>
+      </node>
+    </collaborationgraph>
+    <location file="Assets/GameJamInnerSpace/Scripts/Menu.cs" line="7" column="7" bodyfile="Assets/GameJamInnerSpace/Scripts/Menu.cs" bodystart="8" bodyend="67"/>
+    <listofallmembers>
+      <member refid="class_menu_1aeb89d5d37ba21c6eb8c85fac6269358c" prot="public" virt="non-virtual"><scope>Menu</scope><name>antiAliasCheck</name></member>
+      <member refid="class_menu_1a81909b0410c2b5103e0b5857b068ee49" prot="public" virt="non-virtual"><scope>Menu</scope><name>cam</name></member>
+      <member refid="class_menu_1a81e139934a1fab91d62aa697d0ce7ac8" prot="public" virt="non-virtual"><scope>Menu</scope><name>Close</name></member>
+      <member refid="class_menu_1a5c2728f21c9c789c546705bf7dc6f1c5" prot="public" virt="non-virtual"><scope>Menu</scope><name>isAAEnable</name></member>
+      <member refid="class_menu_1a7202aa1853c5780f5db49ba50e49ba25" prot="public" virt="non-virtual"><scope>Menu</scope><name>LoadScene</name></member>
+      <member refid="class_menu_1a03cc1878d4f17fe540ded9fab03351d2" prot="private" virt="non-virtual"><scope>Menu</scope><name>Start</name></member>
+      <member refid="class_menu_1aac2a5021a95fdee470c0d63bc70d0e1a" prot="private" virt="non-virtual"><scope>Menu</scope><name>Update</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>
