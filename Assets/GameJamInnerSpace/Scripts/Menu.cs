@@ -32,12 +32,20 @@ public class Menu : MonoBehaviour
     }
     
     //Main Menu Buttons
+    
+    /// <summary>
+    /// Loads the Scene
+    /// </summary>
+    /// <param name="SceneName">Name of scene being changed to</param>
     public void LoadScene(string SceneName)
     {
         SceneManager.LoadScene(SceneName);
         Time.timeScale = 1f;
     }
     
+    /// <summary>
+    /// Exits the game. If in editor, stops play mode.
+    /// </summary>
     public void Close()
     {
 	    Application.Quit();
@@ -48,6 +56,10 @@ public class Menu : MonoBehaviour
     
     // Options stuff
 
+    /// <summary>
+    /// Changes AntiAlias Quality settings.
+    /// </summary>
+    /// <param name="enabledAA">If Anti-Aliasing is enabled</param>
     public void antiAliasCheck(bool enabledAA)
     {
 	    isAAEnable = enabledAA;

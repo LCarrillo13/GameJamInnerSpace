@@ -37,6 +37,7 @@ public class Player : MonoBehaviour
     void Update()
     {
         GetInput();
+        
         if(rb.velocity.magnitude > 0)
         {
             particleSystem.Play(); 
@@ -48,7 +49,10 @@ public class Player : MonoBehaviour
        
         //SetActive(rb.velocity.magnitude > 0);
     }
-
+    
+    /// <summary>
+    /// Gets the players current inputs
+    /// </summary>
     void GetInput()
     {
         // movement
@@ -89,6 +93,9 @@ public class Player : MonoBehaviour
         
     }
 
+    /// <summary>
+    /// If the game is not already paused, pauses the game. If the game is already pause, unpauses the game.
+    /// </summary>
     void Pause()
     {
         if(!isPaused)
@@ -104,6 +111,10 @@ public class Player : MonoBehaviour
             Time.timeScale = 1f;
         }
     }
+    
+    /// <summary>
+    /// Kills the player, reseting their velocity and transform position to the spawn point
+    /// </summary>
     void Die()
     {
         Debug.Log("Player died");
@@ -112,6 +123,9 @@ public class Player : MonoBehaviour
         
     }
     
+    /// <summary>
+    /// Swaps to the Win Scene
+    /// </summary>
     void Win()
     {
         SceneManager.LoadScene("WinScene");
@@ -119,7 +133,10 @@ public class Player : MonoBehaviour
     }
 
     
-
+    /// <summary>
+    /// Triggers Methods depending on what the player collides with. If player collides with the lower boundry or an obstacle, triggers Die method, if player collides with target, triggers Win method.
+    /// </summary>
+    /// <param name="other">object the player collides with</param>
     private void OnTriggerEnter(Collider other)
     {
         if(other.transform.CompareTag("BoundsLimit"))
