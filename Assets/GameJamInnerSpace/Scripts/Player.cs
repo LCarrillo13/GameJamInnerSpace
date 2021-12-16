@@ -12,9 +12,10 @@ public class Player : MonoBehaviour
 
     public Rigidbody rb;
 
-    public int playerSpeed, playerMaxSpeed, playerMinSpeed;
-    public float rotationalSpeed, maxRotationalSpeed, minRotationalSpeed;
+    public float playerSpeed, playerSpeedUp, playerSpeedBack, playerSpeedDown;
+    //public float rotationalSpeed, maxVelocity, maxRotationalSpeed, minRotationalSpeed;
 
+    public Vector3 maxVector3Velocity = new Vector3(5,5,5);
     
     public ParticleSystem particleSystem;
 
@@ -25,14 +26,7 @@ public class Player : MonoBehaviour
     
     
     // Start is called before the first frame update
-    void Start()
-    {
-        isPaused = false;
-        rb = GetComponent<Rigidbody>();
-        player = gameObject;
-        pausePanel.SetActive(false);
-    }
-
+   
     // Update is called once per frame
     void Update()
     {
@@ -60,28 +54,28 @@ public class Player : MonoBehaviour
         //float torque = 1f;
         if(Input.GetKey(KeyCode.Space))
         {
-            rb.AddForce(Vector3.up,ForceMode.Impulse);
+            rb.AddForce(Vector3.up*playerSpeedUp,ForceMode.Impulse);
         }
 
         if(Input.GetKey(KeyCode.W))
         {
-            rb.AddForce(Vector3.back,ForceMode.Impulse); 
+            rb.AddForce(Vector3.back*playerSpeed,ForceMode.Impulse); 
         }
         if(Input.GetKey(KeyCode.A))
         {
-            rb.AddForce(Vector3.right,ForceMode.Impulse); 
+            rb.AddForce(Vector3.right*playerSpeed,ForceMode.Impulse); 
         }
         if(Input.GetKey(KeyCode.D))
         {
-            rb.AddForce(Vector3.left,ForceMode.Impulse); 
+            rb.AddForce(Vector3.left*playerSpeed,ForceMode.Impulse); 
         }
         if(Input.GetKey(KeyCode.S))
         {
-            rb.AddForce(Vector3.forward,ForceMode.Impulse);
+            rb.AddForce(Vector3.forward*playerSpeedBack,ForceMode.Impulse);
         }
         if(Input.GetKey(KeyCode.E))
         {
-            rb.AddForce(Vector3.down,ForceMode.Impulse);
+            rb.AddForce(Vector3.down*playerSpeedDown,ForceMode.Impulse);
         }
         
         // other
@@ -90,6 +84,8 @@ public class Player : MonoBehaviour
         {
             Pause();
         }
+        
+        //Velocity check
         
     }
 
